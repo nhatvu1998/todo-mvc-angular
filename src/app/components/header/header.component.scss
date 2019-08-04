@@ -1,0 +1,24 @@
+.icon-wrapper {
+  width: 40px;
+  line-height: 45px;
+  font-size: 40px;
+  color: grey;
+  background: white;
+  transition: 250ms all ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    color: black;
+  }
+}
+
+
+.toggle-all {
+  transition: 250ms all ease-in-out;
+}
+
+
+
+i.fas.fa-chevron-down.toggle-all {
+  padding-top: 10px;
+}
